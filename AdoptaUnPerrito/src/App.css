@@ -1,0 +1,25 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.grid{
+  padding: 20px;
+  padding-top: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.footer{
+  position: absolute;
+  bottom: 0px;
+  text-align: center;
+}
+
+.head{
+  position: absolute;
+  top: 0px;
+}
